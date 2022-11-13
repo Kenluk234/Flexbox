@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Sans-serif;
+  background-color: teal;
+}
+
+h2{
+  color:black;
+  font-size: 75px;
+  text-align: center;
+  display: inline-block;
+}
+
+.header{
+  width: 500 px;
+  height: 3 px;
+  background-color: cyan;
+}
+
+.container{
+  text-align: center
+}
+
+.name{
+  font-size: 50 px;
+  margin-left: 500 px;
+}
+
+.desc{
+  font-size: 25 px;
+  margin-left: 0 px;
+}
+
+.button{
+  color: yellow;
+  background-color: cyan;
+  margin-left: 500 px;
+  margin-top: 0 px;
+  margin-bottom: 30 px;
+  width: 120 px;
+  height: 50 px;
+}
+
+.contain{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+}
